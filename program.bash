@@ -1,4 +1,6 @@
 #!/bin/bash
 
-echo "exit code for '$0' is 2"
-exit 2
+exit_code=3
+
+echo "exit code for '$0' is ${exit_code}"
+exit ${exit_code}
